@@ -1,0 +1,2 @@
+import {Link} from 'react-router-dom'; import {Home,Compass,Map,Mail} from 'lucide-react';
+export default function MobileBottomMenu(){return <div className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-white border-t flex justify-around py-2"><Link to="/" className="mob"><Home size={19}/>Home</Link><Link to="/namibia" className="mob"><Compass size={19}/>Namibia</Link><Link to="/plan-book" className="mob"><Map size={19}/>Plan</Link><Link to="/contact" className="mob"><Mail size={19}/>Contact</Link></div>}
